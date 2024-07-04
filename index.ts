@@ -18,9 +18,9 @@ class person{
 const persons = new person()
 
 const programstart =async(persons:person)=>{
-    do{
+    
     console.log(chalk.bgGreenBright("Wellcome to Hina Alvi Oop Project!"));
-
+   do{
     const ans = await inquirer.prompt({
         name:"Select",
         type:"list",
